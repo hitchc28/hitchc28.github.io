@@ -31,6 +31,35 @@
         </div>
 
         <h3>
+          
+<img class="mySlides" src="images/nama1.jpg">
+<img class="mySlides" src="images/nama2.jpg">
+<img class="mySlides" src="images/nama3.jpg">
+<img class="mySlides" src="images/nama4.jpg">
+          
+<a class="w3-btn-floating" onclick="plusDivs(-1)">&#10094;</a>
+<a class="w3-btn-floating" onclick="plusDivs(+1)">&#10095;</a>
+
+<script>
+  var slideIndex = 1;
+showDivs(slideIndex);
+  
+  function plusDivs(n) {
+      showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1} 
+      if (n < 1) {slideIndex = x.length} ;
+      for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none"; 
+      }
+      x[slideIndex-1].style.display = "block"; 
+  }
+</script>
+          
 <a id="welcome" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome</h3>
 
 <p>Imagine a world of steam-powered machines, where fantastic monuments and giant robots are possible. Welcome NAMASTEAM, a mech-fighting game set in Steampunk India. Players take control of mechs inspired by Hindu Gods in order to settle disputes on an earth-shattering scale. Piloting such a large vehicle isn’t easy, but master the controls and stomp your way to victory, one foot at a time!</p>
