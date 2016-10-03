@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Namasteam</title>
+    <title>Mortal Life</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-dark.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -29,8 +29,8 @@
 
       <section>
         <div id="title">
-          <h1>Namasteam</h1>
-          <p>Unity3D Fighter</p>
+          <h1>Mortal Life</h1>
+          <p>Unity3D Horror/Puzzle game</p>
           <hr>
           <span class="credits left">Project page maintained by <a href="https://github.com/hitchc28">Jake Hitchcock</a></span>
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
@@ -39,16 +39,12 @@
         <h3>
    
 <div align="center">
-  <img class="mySlides" src="images/nama1.jpg">
-  <img class="mySlides" src="images/nama2.jpg">
-  <img class="mySlides" src="images/nama3.jpg">
-  <img class="mySlides" src="images/nama4.jpg">
+  <img class="mySlides" src="images/MLHallway.jpg">
+  <img class="mySlides" src="images/ML Menu.jpg">
+  <img class="mySlides" src="images/ML Puzzle.jpg">
 
   <a class="anchor" onclick="plusDivs(-1)">&#10094;</a>
   <a class="anchor" onclick="plusDivs(+1)">&#10095;</a><br>
-  
-  <!--<a href="downloads/'Namasteam Windows Build.zip'" download>Windows Download</a><div/>
-  <a href="downloads/'Namasteam Mac Build.zip'" download>Mac Download</a>-->
 </div><br>
 
 <script>
